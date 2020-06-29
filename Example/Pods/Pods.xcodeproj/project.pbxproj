@@ -6,20 +6,71 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		4847ACB1E2799345AA74D9E317048D58 /* AlipaySDK-iOS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 48CE3FED3E2D19C4363505B9F04916C7 /* Build configuration list for PBXAggregateTarget "AlipaySDK-iOS" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "AlipaySDK-iOS";
+		};
+		8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4AF0DF2249DC5CF1F6B67BE5469CE54C /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = WechatOpenSDK;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		1076D3A993F61FEDCE065B9AD7DE3BBE /* Pods-ZMSuperPay_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D33560C8EE2670EC456630336C6C97C /* Pods-ZMSuperPay_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		14CDA45D17D987F5CCE4E8BF71A4817A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 419D5A04F754C1B8FAD068861AFE2750 /* ReplaceMe.m */; };
-		2274D4F2B8C97C148F0039EB33232F57 /* ZMSuperPay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3A3480B3DB05B0C6BC2881DE0027D5 /* ZMSuperPay-dummy.m */; };
+		002DFF5FD9A0A6125B5B63C1E4090682 /* ZMSuperPayParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EEA5E7884EF1E132C0377032DDBCD2E /* ZMSuperPayParam.m */; };
+		1A2566C7272CC88EB6A4D942B622C6E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		2A27D4C26D67F3F09B59C6B4EE566DE7 /* Pods-ZMSuperPay_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16763E7A74C77E07FB95F76DDA988216 /* Pods-ZMSuperPay_Tests-dummy.m */; };
-		2F36C3E579CD63139DFDD3DF678A0C9A /* Pods-ZMSuperPay_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CA171132EB0B7DB374E1ECAECA885C /* Pods-ZMSuperPay_Example-dummy.m */; };
-		68B7492F936B32BD55138097298EC466 /* ZMSuperPay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35712F5EAF39F97D3A78085EB4D1B0FC /* ZMSuperPay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A007B13966649517E2D181C42A0DFA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		D1A56B0053B9DDF1988A8726ECF37183 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4860D3C5BC717E58361BD84C772EBED6 /* libPaymentControl.a in Sources */ = {isa = PBXBuildFile; fileRef = 780EAAB127ED0B3DB12A72C93033E08E /* libPaymentControl.a */; };
+		4BDF9C7A232C4213758E7AF8F8B0F14B /* ZMSuperPay.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CF9A0891E217A23AE15EAE952205BCA /* ZMSuperPay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5411A1D38708889CFA0549527C737F94 /* ZMSuperPayment.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC1C2096CC4C590D2DD241EEEDC242B /* ZMSuperPayment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66BC01A0680952553A28F3D80D4407DC /* ZMSuperPayUPService.m in Sources */ = {isa = PBXBuildFile; fileRef = F788CD2FD9810C8D644B7BE14BC8C342 /* ZMSuperPayUPService.m */; };
+		7445A7B78881DA49B7823232FFFF7838 /* ZMSuperPay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C25F2D0540FE5C1CB1F18A20D6F8669E /* ZMSuperPay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		749C342AAE7EF44DD30837587D7C7134 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		821590EDD0485F45285CAD5DC05257D6 /* UPPaymentControl.h in Headers */ = {isa = PBXBuildFile; fileRef = F03CB540437D56B8FB65DB1BE101D8B5 /* UPPaymentControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99B88547F625058C067C95911151401F /* ZMSuperPayGlobal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C3A8A62B77B10043B9A67716B9E7129 /* ZMSuperPayGlobal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A48A13F9FA988C30DA158B71C82940AF /* ZMSuperPayAliService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D866F26C05B9E1FAD7656EAA3F9BAC5 /* ZMSuperPayAliService.m */; };
+		A6E9AF64C316CBC97124FAE988265A47 /* ZMSuperPaymentParamProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 16BFE9241986216542AC16342D4E2717 /* ZMSuperPaymentParamProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7E2F0712105CDD5D4EF38EA02608FF6 /* ZMSuperPayWXService.h in Headers */ = {isa = PBXBuildFile; fileRef = A9028A15BE02EDA918E4D752596D45CD /* ZMSuperPayWXService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B83169154053970C0704C8F559E5B989 /* ZMSuperPayWXService.m in Sources */ = {isa = PBXBuildFile; fileRef = CA678A7A67D507C3AC1AA65C0D6963E4 /* ZMSuperPayWXService.m */; };
+		BE77E124CCC16AE0C9CAB27D87146517 /* ZMSuperPayParam.h in Headers */ = {isa = PBXBuildFile; fileRef = 936DA60296AB1C497C25B1CA96F49705 /* ZMSuperPayParam.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C35B4EDB4937A359CF4E7A93C1E79E0B /* ZMSuperPayment.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6DECCDBD3D662C264081E94D2114E7 /* ZMSuperPayment.m */; };
+		C4FADB0F1410617E254A9B52E7B0FCDB /* Pods-ZMSuperPay_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F7FEDDB7F202C265207AE77836ED891 /* Pods-ZMSuperPay_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5E4AA1869AE378217718EF85F87383D /* ZMSuperPay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DFD8DE43918BE8065E140E8411FBB9B /* ZMSuperPay-dummy.m */; };
+		CF620B0EE63B9B5D3DA1B6098E981184 /* ZMSuperPayAliService.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DA183439E2826797EB5206B85CE96A8 /* ZMSuperPayAliService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D23FCB736CF25F5C5447E36BBB40566F /* ZMSuperPayService.m in Sources */ = {isa = PBXBuildFile; fileRef = F308DB7C7B18BDBF2A5FD4FD35320D88 /* ZMSuperPayService.m */; };
 		D8B232D32D2B7E4010F45F086CB19320 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DC3DA2BE6C53CCB39DC722BAFF1A2999 /* ZMSuperPayService.h in Headers */ = {isa = PBXBuildFile; fileRef = 8125DADD22C1AC859156F0E7330E6422 /* ZMSuperPayService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E027F8A19C310F3213C138C9A4CCBE3F /* Pods-ZMSuperPay_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF29E72666C33058CE5C771F8B3367A6 /* Pods-ZMSuperPay_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E91914F9E67BAACE2289E840F72B7CB3 /* ZMSuperPayUPService.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E11F2BB9970975D2BE624FD28D2B410 /* ZMSuperPayUPService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC00A191D0417FF3D1B2E9B6598303A3 /* Pods-ZMSuperPay_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC860A2CD90D422D6CFA5583D1A5600 /* Pods-ZMSuperPay_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		08152A4324AE1B37CB9A5F4C7B594601 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8554F6236D2AA202CF58503D2DF29730;
+			remoteInfo = WechatOpenSDK;
+		};
+		46E98063467533C70367C33A11528A90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77266F84F49DD45F2FCA389A6CB9B582;
+			remoteInfo = ZMSuperPay;
+		};
 		47DB958A80125D9E2636728A115784E7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -27,65 +78,105 @@
 			remoteGlobalIDString = 49609A42E28B69ACD2B57F7B1DA2EF5C;
 			remoteInfo = "Pods-ZMSuperPay_Example";
 		};
-		B0DC935CEE0DE9A7C716D00E8FE542D0 /* PBXContainerItemProxy */ = {
+		A6835835E7AC26A445A48FE07B599A79 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 77266F84F49DD45F2FCA389A6CB9B582;
-			remoteInfo = ZMSuperPay;
+			remoteGlobalIDString = 8554F6236D2AA202CF58503D2DF29730;
+			remoteInfo = WechatOpenSDK;
+		};
+		D9C9FD041815575184F6A76EC2B52D37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4847ACB1E2799345AA74D9E317048D58;
+			remoteInfo = "AlipaySDK-iOS";
+		};
+		F6BD4BB290B84060975FE63B982881D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4847ACB1E2799345AA74D9E317048D58;
+			remoteInfo = "AlipaySDK-iOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04C93CFBA61E41F5C6D39C0A75E3975D /* Pods-ZMSuperPay_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZMSuperPay_Example-resources.sh"; sourceTree = "<group>"; };
+		0B453AF3D41F49EE3602700D0776E208 /* Pods-ZMSuperPay_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZMSuperPay_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0E6DECCDBD3D662C264081E94D2114E7 /* ZMSuperPayment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZMSuperPayment.m; sourceTree = "<group>"; };
+		105B904C1507B2D84E41689DFA09D039 /* Pods-ZMSuperPay_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZMSuperPay_Example.release.xcconfig"; sourceTree = "<group>"; };
 		16763E7A74C77E07FB95F76DDA988216 /* Pods-ZMSuperPay_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZMSuperPay_Tests-dummy.m"; sourceTree = "<group>"; };
-		16BF31441B764A5A921374E8BC7DE57F /* Pods-ZMSuperPay_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZMSuperPay_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		1A11E407E832F0727DB75CEEE8533791 /* ZMSuperPay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZMSuperPay.modulemap; sourceTree = "<group>"; };
+		16BFE9241986216542AC16342D4E2717 /* ZMSuperPaymentParamProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZMSuperPaymentParamProtocol.h; sourceTree = "<group>"; };
 		1F205843A601D1FB5FA5BBED7F460E82 /* Pods-ZMSuperPay_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZMSuperPay_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		282F5B0CD4CC2542C07433856A01DCFB /* ZMSuperPay-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZMSuperPay-prefix.pch"; sourceTree = "<group>"; };
-		2A9DBA1AE417E4CBF234E65957C23217 /* ZMSuperPay.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZMSuperPay.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1F7FEDDB7F202C265207AE77836ED891 /* Pods-ZMSuperPay_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZMSuperPay_Example-umbrella.h"; sourceTree = "<group>"; };
+		23760F6527B5C1FBB06636EC4BF99C21 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = WeChatSDK1.8.5/libWeChatSDK.a; sourceTree = "<group>"; };
+		28C26C52C45E1A872DE1EA94DF7CFFC8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2E11F2BB9970975D2BE624FD28D2B410 /* ZMSuperPayUPService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZMSuperPayUPService.h; sourceTree = "<group>"; };
 		30A10449096BD928849D8362CD183B6B /* Pods-ZMSuperPay_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZMSuperPay_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		35712F5EAF39F97D3A78085EB4D1B0FC /* ZMSuperPay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZMSuperPay-umbrella.h"; sourceTree = "<group>"; };
-		35969E199796BDE32ED0577D5E233895 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		39C7B96668D3F093BCDAFAD3908E9B80 /* Pods-ZMSuperPay_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZMSuperPay_Example.release.xcconfig"; sourceTree = "<group>"; };
-		419D5A04F754C1B8FAD068861AFE2750 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ZMSuperPay/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		35EE1B406A8753CE457860A4A0AC950B /* Pods-ZMSuperPay_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZMSuperPay_Example-Info.plist"; sourceTree = "<group>"; };
+		398E174F9EB67CE15BDE3A200434EA94 /* Pods-ZMSuperPay_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZMSuperPay_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		44CC6DEFB552FF1AC8B437DE9B53D677 /* Pods_ZMSuperPay_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZMSuperPay_Tests.framework; path = "Pods-ZMSuperPay_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C01955CFA3B4115C071E9BC6E9CA0B8 /* Pods-ZMSuperPay_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZMSuperPay_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		49F21FDA4943E7CA9F4C7ECB54219A64 /* Pods-ZMSuperPay_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZMSuperPay_Example.modulemap"; sourceTree = "<group>"; };
+		4CF9A0891E217A23AE15EAE952205BCA /* ZMSuperPay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZMSuperPay.h; path = ZMSuperPay/Classes/ZMSuperPay.h; sourceTree = "<group>"; };
+		57CC63F2E43F64E11AAA22B3EBA784D1 /* ZMSuperPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZMSuperPay.debug.xcconfig; sourceTree = "<group>"; };
+		59FD5BDCC4B099FFCCE1C23929625AF0 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = WeChatSDK1.8.5/WechatAuthSDK.h; sourceTree = "<group>"; };
+		5AA07A157E8694381D3B59A50A757B38 /* WechatOpenSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.debug.xcconfig; sourceTree = "<group>"; };
+		5B2CE8968AA2160E04B8760DC7C8F4B8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5D866F26C05B9E1FAD7656EAA3F9BAC5 /* ZMSuperPayAliService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZMSuperPayAliService.m; sourceTree = "<group>"; };
+		5EEA5E7884EF1E132C0377032DDBCD2E /* ZMSuperPayParam.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZMSuperPayParam.m; sourceTree = "<group>"; };
+		5F58C5D6BA9C852433ADA65137D7A23D /* Pods-ZMSuperPay_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZMSuperPay_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		60F7A558091882EDE090207A09CD6179 /* Pods-ZMSuperPay_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZMSuperPay_Tests.modulemap"; sourceTree = "<group>"; };
-		6AB41E8FA0435F310F4D2CC3A4FDBF21 /* Pods-ZMSuperPay_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZMSuperPay_Example-Info.plist"; sourceTree = "<group>"; };
-		72B8E5A7419925D1EA77E86D6310E750 /* ZMSuperPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZMSuperPay.release.xcconfig; sourceTree = "<group>"; };
-		7C9C77230CF59DF8D340B4E64B698B8B /* ZMSuperPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZMSuperPay.debug.xcconfig; sourceTree = "<group>"; };
-		7D827A1713A2B00962DA3734BB74FABB /* ZMSuperPay-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZMSuperPay-Info.plist"; sourceTree = "<group>"; };
-		92287F9161E4204B8C3BF1FD759C57B5 /* Pods-ZMSuperPay_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZMSuperPay_Example.modulemap"; sourceTree = "<group>"; };
-		98CA171132EB0B7DB374E1ECAECA885C /* Pods-ZMSuperPay_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZMSuperPay_Example-dummy.m"; sourceTree = "<group>"; };
-		9D33560C8EE2670EC456630336C6C97C /* Pods-ZMSuperPay_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZMSuperPay_Example-umbrella.h"; sourceTree = "<group>"; };
+		6B1BF89672DAE889A4E5158BA597B8EA /* ZMSuperPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZMSuperPay.release.xcconfig; sourceTree = "<group>"; };
+		6DFD8DE43918BE8065E140E8411FBB9B /* ZMSuperPay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZMSuperPay-dummy.m"; sourceTree = "<group>"; };
+		76F05287894A267EE14DE6817FA8548F /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		780EAAB127ED0B3DB12A72C93033E08E /* libPaymentControl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libPaymentControl.a; sourceTree = "<group>"; };
+		7DA183439E2826797EB5206B85CE96A8 /* ZMSuperPayAliService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZMSuperPayAliService.h; sourceTree = "<group>"; };
+		7E4F43DDC24A4A6CEA9FF2053CD72ECD /* WechatOpenSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.release.xcconfig; sourceTree = "<group>"; };
+		8125DADD22C1AC859156F0E7330E6422 /* ZMSuperPayService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZMSuperPayService.h; sourceTree = "<group>"; };
+		8BDDD2868FC8757F29C1575390239B3C /* ZMSuperPay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZMSuperPay.modulemap; sourceTree = "<group>"; };
+		902E0E098F4901F52F260F7ED7B9B6A8 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = WeChatSDK1.8.5/WXApi.h; sourceTree = "<group>"; };
+		936DA60296AB1C497C25B1CA96F49705 /* ZMSuperPayParam.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZMSuperPayParam.h; sourceTree = "<group>"; };
+		9C3A8A62B77B10043B9A67716B9E7129 /* ZMSuperPayGlobal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZMSuperPayGlobal.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BA3A3480B3DB05B0C6BC2881DE0027D5 /* ZMSuperPay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZMSuperPay-dummy.m"; sourceTree = "<group>"; };
+		9F10D18B681CAFF8036BC5B0505CD889 /* AlipaySDK-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AlipaySDK-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		A429D61423F38695ADD9C06CEBB1778F /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = WeChatSDK1.8.5/WXApiObject.h; sourceTree = "<group>"; };
+		A876EAB2D83E0B18AD6A31677EC643A6 /* ZMSuperPay.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZMSuperPay.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9028A15BE02EDA918E4D752596D45CD /* ZMSuperPayWXService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZMSuperPayWXService.h; sourceTree = "<group>"; };
+		B6BABDA408D8176CC1A46B5408989D66 /* AlipaySDK-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AlipaySDK-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		B940399B565D77B58690A0EF15F5EC7B /* ZMSuperPay-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZMSuperPay-prefix.pch"; sourceTree = "<group>"; };
+		C25F2D0540FE5C1CB1F18A20D6F8669E /* ZMSuperPay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZMSuperPay-umbrella.h"; sourceTree = "<group>"; };
 		C82EC1FBCA1F4C72BD1D83E857DDEF89 /* Pods-ZMSuperPay_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZMSuperPay_Tests-Info.plist"; sourceTree = "<group>"; };
+		CA678A7A67D507C3AC1AA65C0D6963E4 /* ZMSuperPayWXService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZMSuperPayWXService.m; sourceTree = "<group>"; };
 		CF29E72666C33058CE5C771F8B3367A6 /* Pods-ZMSuperPay_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZMSuperPay_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D890BEEA155F714B5B99C8950EF0FDB7 /* ZMSuperPay-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZMSuperPay-Info.plist"; sourceTree = "<group>"; };
 		DAAD3F9A25BD9D2682C99E49D3352F39 /* Pods-ZMSuperPay_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZMSuperPay_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		DE8B67E8EEA97C8CAB1433540A904B8F /* Pods-ZMSuperPay_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZMSuperPay_Example-frameworks.sh"; sourceTree = "<group>"; };
+		DAC1C2096CC4C590D2DD241EEEDC242B /* ZMSuperPayment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZMSuperPayment.h; sourceTree = "<group>"; };
+		DAC860A2CD90D422D6CFA5583D1A5600 /* Pods-ZMSuperPay_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZMSuperPay_Example-dummy.m"; sourceTree = "<group>"; };
+		E1D5A9B9413C02EA9F5DCB53A5C13B5B /* AlipaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
 		EC575D6341A014594A12DA73F000366D /* Pods_ZMSuperPay_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZMSuperPay_Example.framework; path = "Pods-ZMSuperPay_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF5D567AA6971F452E09E21F6C579B27 /* ZMSuperPay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZMSuperPay.framework; path = ZMSuperPay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1E3E03C58C88F072190F5C116DF19D2 /* Pods-ZMSuperPay_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZMSuperPay_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F5A3CC6C4FCFE84F21A22E64A32B9711 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F03CB540437D56B8FB65DB1BE101D8B5 /* UPPaymentControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UPPaymentControl.h; sourceTree = "<group>"; };
+		F308DB7C7B18BDBF2A5FD4FD35320D88 /* ZMSuperPayService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZMSuperPayService.m; sourceTree = "<group>"; };
+		F788CD2FD9810C8D644B7BE14BC8C342 /* ZMSuperPayUPService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZMSuperPayUPService.m; sourceTree = "<group>"; };
 		FD15B9E7BCEFBABE3EC47018A3C3154C /* Pods-ZMSuperPay_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZMSuperPay_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		505F34DB14EEA4F764C79AAFA40296C1 /* Frameworks */ = {
+		1D12F1D09DD674C235449F0824A192F0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1A56B0053B9DDF1988A8726ECF37183 /* Foundation.framework in Frameworks */,
+				749C342AAE7EF44DD30837587D7C7134 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		97E164C6E4046E4820AA6B0AAD2C1FE5 /* Frameworks */ = {
+		752E837C3E5180502358484F1F18CB23 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A007B13966649517E2D181C42A0DFA6 /* Foundation.framework in Frameworks */,
+				1A2566C7272CC88EB6A4D942B622C6E0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,19 +191,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1AC40A8E321511ECA11920F1B383B248 /* Support Files */ = {
+		031585440D19C24408251CCDBD89E8B8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1A11E407E832F0727DB75CEEE8533791 /* ZMSuperPay.modulemap */,
-				BA3A3480B3DB05B0C6BC2881DE0027D5 /* ZMSuperPay-dummy.m */,
-				7D827A1713A2B00962DA3734BB74FABB /* ZMSuperPay-Info.plist */,
-				282F5B0CD4CC2542C07433856A01DCFB /* ZMSuperPay-prefix.pch */,
-				35712F5EAF39F97D3A78085EB4D1B0FC /* ZMSuperPay-umbrella.h */,
-				7C9C77230CF59DF8D340B4E64B698B8B /* ZMSuperPay.debug.xcconfig */,
-				72B8E5A7419925D1EA77E86D6310E750 /* ZMSuperPay.release.xcconfig */,
+				0557B4D96C5422E89B692ACEE990113C /* AlipaySDK-iOS */,
+				4F9F451B3826D407058DC91266952F51 /* WechatOpenSDK */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZMSuperPay";
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0557B4D96C5422E89B692ACEE990113C /* AlipaySDK-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3FA60FE65F3816CA44D72189CF1ED4F3 /* Frameworks */,
+				DEB4F4EC4DB72C8F198C9A4D0262E812 /* Resources */,
+				5B48ECBE877EC309263FB424747415AB /* Support Files */,
+			);
+			name = "AlipaySDK-iOS";
+			path = "AlipaySDK-iOS";
+			sourceTree = "<group>";
+		};
+		08D22B6B1635D57B2CC843F51B954E93 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				3C8F6D653EFAB545F9BA442B56CEDD38 /* UPPayment */,
+			);
+			name = Lib;
+			path = ZMSuperPay/Classes/Lib;
 			sourceTree = "<group>";
 		};
 		296CBA48D19FFC5FAAA6169C3B2603D8 /* Products */ = {
@@ -125,27 +230,109 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		34050017266F1008C4387EE6132BBB2F /* Pods-ZMSuperPay_Example */ = {
+		30839DC0FB786516BE176CC6BAD68F3B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				92287F9161E4204B8C3BF1FD759C57B5 /* Pods-ZMSuperPay_Example.modulemap */,
-				F1E3E03C58C88F072190F5C116DF19D2 /* Pods-ZMSuperPay_Example-acknowledgements.markdown */,
-				16BF31441B764A5A921374E8BC7DE57F /* Pods-ZMSuperPay_Example-acknowledgements.plist */,
-				98CA171132EB0B7DB374E1ECAECA885C /* Pods-ZMSuperPay_Example-dummy.m */,
-				DE8B67E8EEA97C8CAB1433540A904B8F /* Pods-ZMSuperPay_Example-frameworks.sh */,
-				6AB41E8FA0435F310F4D2CC3A4FDBF21 /* Pods-ZMSuperPay_Example-Info.plist */,
-				9D33560C8EE2670EC456630336C6C97C /* Pods-ZMSuperPay_Example-umbrella.h */,
-				5C01955CFA3B4115C071E9BC6E9CA0B8 /* Pods-ZMSuperPay_Example.debug.xcconfig */,
-				39C7B96668D3F093BCDAFAD3908E9B80 /* Pods-ZMSuperPay_Example.release.xcconfig */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		387799D80466CAE67B207C09B1311D1A /* Pods-ZMSuperPay_Example */ = {
+			isa = PBXGroup;
+			children = (
+				49F21FDA4943E7CA9F4C7ECB54219A64 /* Pods-ZMSuperPay_Example.modulemap */,
+				398E174F9EB67CE15BDE3A200434EA94 /* Pods-ZMSuperPay_Example-acknowledgements.markdown */,
+				5F58C5D6BA9C852433ADA65137D7A23D /* Pods-ZMSuperPay_Example-acknowledgements.plist */,
+				DAC860A2CD90D422D6CFA5583D1A5600 /* Pods-ZMSuperPay_Example-dummy.m */,
+				35EE1B406A8753CE457860A4A0AC950B /* Pods-ZMSuperPay_Example-Info.plist */,
+				04C93CFBA61E41F5C6D39C0A75E3975D /* Pods-ZMSuperPay_Example-resources.sh */,
+				1F7FEDDB7F202C265207AE77836ED891 /* Pods-ZMSuperPay_Example-umbrella.h */,
+				0B453AF3D41F49EE3602700D0776E208 /* Pods-ZMSuperPay_Example.debug.xcconfig */,
+				105B904C1507B2D84E41689DFA09D039 /* Pods-ZMSuperPay_Example.release.xcconfig */,
 			);
 			name = "Pods-ZMSuperPay_Example";
 			path = "Target Support Files/Pods-ZMSuperPay_Example";
 			sourceTree = "<group>";
 		};
+		3C8F6D653EFAB545F9BA442B56CEDD38 /* UPPayment */ = {
+			isa = PBXGroup;
+			children = (
+				780EAAB127ED0B3DB12A72C93033E08E /* libPaymentControl.a */,
+				F03CB540437D56B8FB65DB1BE101D8B5 /* UPPaymentControl.h */,
+			);
+			name = UPPayment;
+			path = UPPayment;
+			sourceTree = "<group>";
+		};
+		3FA60FE65F3816CA44D72189CF1ED4F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76F05287894A267EE14DE6817FA8548F /* AlipaySDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42FF43FA78A2ECBCC69B2725F1C73B2A /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				9C3A8A62B77B10043B9A67716B9E7129 /* ZMSuperPayGlobal.h */,
+			);
+			name = Global;
+			path = ZMSuperPay/Classes/Global;
+			sourceTree = "<group>";
+		};
+		4952ED978B6D985B28F1EEE10346A764 /* ZMSuperPay */ = {
+			isa = PBXGroup;
+			children = (
+				4CF9A0891E217A23AE15EAE952205BCA /* ZMSuperPay.h */,
+				30839DC0FB786516BE176CC6BAD68F3B /* Frameworks */,
+				42FF43FA78A2ECBCC69B2725F1C73B2A /* Global */,
+				08D22B6B1635D57B2CC843F51B954E93 /* Lib */,
+				A44EC698025435B3AAA1E10BD5E23573 /* Module */,
+				A6F3110D369B083EDFA70544402F614F /* Pod */,
+				687B1B86157A227C7268956321B71904 /* Protocol */,
+				C3ED492D290925A595A4098628141186 /* Support Files */,
+			);
+			name = ZMSuperPay;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4F9F451B3826D407058DC91266952F51 /* WechatOpenSDK */ = {
+			isa = PBXGroup;
+			children = (
+				59FD5BDCC4B099FFCCE1C23929625AF0 /* WechatAuthSDK.h */,
+				902E0E098F4901F52F260F7ED7B9B6A8 /* WXApi.h */,
+				A429D61423F38695ADD9C06CEBB1778F /* WXApiObject.h */,
+				B85F224DF9CB4B09841AF97736432CDF /* Frameworks */,
+				D854D5CC1788FACD21F6638FF2D18545 /* Support Files */,
+			);
+			name = WechatOpenSDK;
+			path = WechatOpenSDK;
+			sourceTree = "<group>";
+		};
+		5B48ECBE877EC309263FB424747415AB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F10D18B681CAFF8036BC5B0505CD889 /* AlipaySDK-iOS.debug.xcconfig */,
+				B6BABDA408D8176CC1A46B5408989D66 /* AlipaySDK-iOS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AlipaySDK-iOS";
+			sourceTree = "<group>";
+		};
+		687B1B86157A227C7268956321B71904 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				16BFE9241986216542AC16342D4E2717 /* ZMSuperPaymentParamProtocol.h */,
+			);
+			name = Protocol;
+			path = ZMSuperPay/Classes/Protocol;
+			sourceTree = "<group>";
+		};
 		6F1176C959856363118892083FD90E61 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				34050017266F1008C4387EE6132BBB2F /* Pods-ZMSuperPay_Example */,
+				387799D80466CAE67B207C09B1311D1A /* Pods-ZMSuperPay_Example */,
 				7E4B69406BEFEEB4E3BE55A96A150B6A /* Pods-ZMSuperPay_Tests */,
 			);
 			name = "Targets Support Files";
@@ -167,20 +354,48 @@
 			path = "Target Support Files/Pods-ZMSuperPay_Tests";
 			sourceTree = "<group>";
 		};
-		93F524A69C285C40EBA2236D4C39AFCC /* Pod */ = {
+		A44EC698025435B3AAA1E10BD5E23573 /* Module */ = {
 			isa = PBXGroup;
 			children = (
-				F5A3CC6C4FCFE84F21A22E64A32B9711 /* LICENSE */,
-				35969E199796BDE32ED0577D5E233895 /* README.md */,
-				2A9DBA1AE417E4CBF234E65957C23217 /* ZMSuperPay.podspec */,
+				7DA183439E2826797EB5206B85CE96A8 /* ZMSuperPayAliService.h */,
+				5D866F26C05B9E1FAD7656EAA3F9BAC5 /* ZMSuperPayAliService.m */,
+				DAC1C2096CC4C590D2DD241EEEDC242B /* ZMSuperPayment.h */,
+				0E6DECCDBD3D662C264081E94D2114E7 /* ZMSuperPayment.m */,
+				936DA60296AB1C497C25B1CA96F49705 /* ZMSuperPayParam.h */,
+				5EEA5E7884EF1E132C0377032DDBCD2E /* ZMSuperPayParam.m */,
+				8125DADD22C1AC859156F0E7330E6422 /* ZMSuperPayService.h */,
+				F308DB7C7B18BDBF2A5FD4FD35320D88 /* ZMSuperPayService.m */,
+				2E11F2BB9970975D2BE624FD28D2B410 /* ZMSuperPayUPService.h */,
+				F788CD2FD9810C8D644B7BE14BC8C342 /* ZMSuperPayUPService.m */,
+				A9028A15BE02EDA918E4D752596D45CD /* ZMSuperPayWXService.h */,
+				CA678A7A67D507C3AC1AA65C0D6963E4 /* ZMSuperPayWXService.m */,
+			);
+			name = Module;
+			path = ZMSuperPay/Classes/Module;
+			sourceTree = "<group>";
+		};
+		A6F3110D369B083EDFA70544402F614F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5B2CE8968AA2160E04B8760DC7C8F4B8 /* LICENSE */,
+				28C26C52C45E1A872DE1EA94DF7CFFC8 /* README.md */,
+				A876EAB2D83E0B18AD6A31677EC643A6 /* ZMSuperPay.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		A68070B6F26CD55553E1DCABAF525A77 /* Development Pods */ = {
+		B85F224DF9CB4B09841AF97736432CDF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CEC41CA55440C25ABCBADF98F342FDD9 /* ZMSuperPay */,
+				23760F6527B5C1FBB06636EC4BF99C21 /* libWeChatSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEE7B800485B7932986E9C8D3A48BD20 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4952ED978B6D985B28F1EEE10346A764 /* ZMSuperPay */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -193,23 +408,28 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		CEC41CA55440C25ABCBADF98F342FDD9 /* ZMSuperPay */ = {
+		C3ED492D290925A595A4098628141186 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				419D5A04F754C1B8FAD068861AFE2750 /* ReplaceMe.m */,
-				93F524A69C285C40EBA2236D4C39AFCC /* Pod */,
-				1AC40A8E321511ECA11920F1B383B248 /* Support Files */,
+				8BDDD2868FC8757F29C1575390239B3C /* ZMSuperPay.modulemap */,
+				6DFD8DE43918BE8065E140E8411FBB9B /* ZMSuperPay-dummy.m */,
+				D890BEEA155F714B5B99C8950EF0FDB7 /* ZMSuperPay-Info.plist */,
+				B940399B565D77B58690A0EF15F5EC7B /* ZMSuperPay-prefix.pch */,
+				C25F2D0540FE5C1CB1F18A20D6F8669E /* ZMSuperPay-umbrella.h */,
+				57CC63F2E43F64E11AAA22B3EBA784D1 /* ZMSuperPay.debug.xcconfig */,
+				6B1BF89672DAE889A4E5158BA597B8EA /* ZMSuperPay.release.xcconfig */,
 			);
-			name = ZMSuperPay;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZMSuperPay";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				A68070B6F26CD55553E1DCABAF525A77 /* Development Pods */,
+				BEE7B800485B7932986E9C8D3A48BD20 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				031585440D19C24408251CCDBD89E8B8 /* Pods */,
 				296CBA48D19FFC5FAAA6169C3B2603D8 /* Products */,
 				6F1176C959856363118892083FD90E61 /* Targets Support Files */,
 			);
@@ -223,6 +443,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D854D5CC1788FACD21F6638FF2D18545 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AA07A157E8694381D3B59A50A757B38 /* WechatOpenSDK.debug.xcconfig */,
+				7E4F43DDC24A4A6CEA9FF2053CD72ECD /* WechatOpenSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WechatOpenSDK";
+			sourceTree = "<group>";
+		};
+		DEB4F4EC4DB72C8F198C9A4D0262E812 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E1D5A9B9413C02EA9F5DCB53A5C13B5B /* AlipaySDK.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -234,19 +472,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62E01ABEA84F4ABDD9F392FF82AA3161 /* Headers */ = {
+		24F1DA147895977DF2F86DAD3330DBCE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1076D3A993F61FEDCE065B9AD7DE3BBE /* Pods-ZMSuperPay_Example-umbrella.h in Headers */,
+				821590EDD0485F45285CAD5DC05257D6 /* UPPaymentControl.h in Headers */,
+				7445A7B78881DA49B7823232FFFF7838 /* ZMSuperPay-umbrella.h in Headers */,
+				4BDF9C7A232C4213758E7AF8F8B0F14B /* ZMSuperPay.h in Headers */,
+				CF620B0EE63B9B5D3DA1B6098E981184 /* ZMSuperPayAliService.h in Headers */,
+				99B88547F625058C067C95911151401F /* ZMSuperPayGlobal.h in Headers */,
+				5411A1D38708889CFA0549527C737F94 /* ZMSuperPayment.h in Headers */,
+				A6E9AF64C316CBC97124FAE988265A47 /* ZMSuperPaymentParamProtocol.h in Headers */,
+				BE77E124CCC16AE0C9CAB27D87146517 /* ZMSuperPayParam.h in Headers */,
+				DC3DA2BE6C53CCB39DC722BAFF1A2999 /* ZMSuperPayService.h in Headers */,
+				E91914F9E67BAACE2289E840F72B7CB3 /* ZMSuperPayUPService.h in Headers */,
+				A7E2F0712105CDD5D4EF38EA02608FF6 /* ZMSuperPayWXService.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B159837D9D7BDCED3CAB10B7892185ED /* Headers */ = {
+		5E9435C1312EC253F5AE84BEA9F28561 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68B7492F936B32BD55138097298EC466 /* ZMSuperPay-umbrella.h in Headers */,
+				C4FADB0F1410617E254A9B52E7B0FCDB /* Pods-ZMSuperPay_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,17 +503,19 @@
 /* Begin PBXNativeTarget section */
 		49609A42E28B69ACD2B57F7B1DA2EF5C /* Pods-ZMSuperPay_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D3B8C137F4926A433FF5B5B52AAECA0A /* Build configuration list for PBXNativeTarget "Pods-ZMSuperPay_Example" */;
+			buildConfigurationList = C2739FE13DCC0B22B55AB86B30754B3B /* Build configuration list for PBXNativeTarget "Pods-ZMSuperPay_Example" */;
 			buildPhases = (
-				62E01ABEA84F4ABDD9F392FF82AA3161 /* Headers */,
-				223C0B96B0DAE625415D7E1310D99590 /* Sources */,
-				505F34DB14EEA4F764C79AAFA40296C1 /* Frameworks */,
-				344EF44B09DE88E163120CA2320A82D9 /* Resources */,
+				5E9435C1312EC253F5AE84BEA9F28561 /* Headers */,
+				673F8A7791B42FAD14D5C53BF2A00A7E /* Sources */,
+				1D12F1D09DD674C235449F0824A192F0 /* Frameworks */,
+				AE358CB7D206BC2EDAC52B16D9281A09 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CEFFFCA7308896A488433D5F1BF96FC9 /* PBXTargetDependency */,
+				F3C622CE37C1AB9E4DC87412FFC774F4 /* PBXTargetDependency */,
+				325603F7DBAD643963DFFC084B6FF576 /* PBXTargetDependency */,
+				549EFE7712C739CB49EAD1525204EBF4 /* PBXTargetDependency */,
 			);
 			name = "Pods-ZMSuperPay_Example";
 			productName = "Pods-ZMSuperPay_Example";
@@ -274,16 +524,18 @@
 		};
 		77266F84F49DD45F2FCA389A6CB9B582 /* ZMSuperPay */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C71EEBE01B64B21C64C6232B0DB5E9BB /* Build configuration list for PBXNativeTarget "ZMSuperPay" */;
+			buildConfigurationList = AC41CB7332CDEF765EB9DF51C6894B7B /* Build configuration list for PBXNativeTarget "ZMSuperPay" */;
 			buildPhases = (
-				B159837D9D7BDCED3CAB10B7892185ED /* Headers */,
-				FAFB6D73A94FD46116FCC0D520B8350D /* Sources */,
-				97E164C6E4046E4820AA6B0AAD2C1FE5 /* Frameworks */,
-				E2AA0A688D817805193DB60387710AE5 /* Resources */,
+				24F1DA147895977DF2F86DAD3330DBCE /* Headers */,
+				958E823B539BF3F13CCFA5A284FACFB4 /* Sources */,
+				752E837C3E5180502358484F1F18CB23 /* Frameworks */,
+				111CDF3B87F2E98CE0CB0E2DB1D9AA46 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E1DA69450A028D6E93E556AA50BE3253 /* PBXTargetDependency */,
+				22163D856E30323793257F2A8F2EAB61 /* PBXTargetDependency */,
 			);
 			name = ZMSuperPay;
 			productName = ZMSuperPay;
@@ -331,15 +583,24 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				4847ACB1E2799345AA74D9E317048D58 /* AlipaySDK-iOS */,
 				49609A42E28B69ACD2B57F7B1DA2EF5C /* Pods-ZMSuperPay_Example */,
 				E95C08B69C98ACFD017F07D860B985A7 /* Pods-ZMSuperPay_Tests */,
+				8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */,
 				77266F84F49DD45F2FCA389A6CB9B582 /* ZMSuperPay */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		344EF44B09DE88E163120CA2320A82D9 /* Resources */ = {
+		111CDF3B87F2E98CE0CB0E2DB1D9AA46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE358CB7D206BC2EDAC52B16D9281A09 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -353,24 +614,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2AA0A688D817805193DB60387710AE5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		223C0B96B0DAE625415D7E1310D99590 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2F36C3E579CD63139DFDD3DF678A0C9A /* Pods-ZMSuperPay_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		305372204C53C5EFBC054389E02D282C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -379,38 +625,75 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FAFB6D73A94FD46116FCC0D520B8350D /* Sources */ = {
+		673F8A7791B42FAD14D5C53BF2A00A7E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14CDA45D17D987F5CCE4E8BF71A4817A /* ReplaceMe.m in Sources */,
-				2274D4F2B8C97C148F0039EB33232F57 /* ZMSuperPay-dummy.m in Sources */,
+				FC00A191D0417FF3D1B2E9B6598303A3 /* Pods-ZMSuperPay_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		958E823B539BF3F13CCFA5A284FACFB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4860D3C5BC717E58361BD84C772EBED6 /* libPaymentControl.a in Sources */,
+				C5E4AA1869AE378217718EF85F87383D /* ZMSuperPay-dummy.m in Sources */,
+				A48A13F9FA988C30DA158B71C82940AF /* ZMSuperPayAliService.m in Sources */,
+				C35B4EDB4937A359CF4E7A93C1E79E0B /* ZMSuperPayment.m in Sources */,
+				002DFF5FD9A0A6125B5B63C1E4090682 /* ZMSuperPayParam.m in Sources */,
+				D23FCB736CF25F5C5447E36BBB40566F /* ZMSuperPayService.m in Sources */,
+				66BC01A0680952553A28F3D80D4407DC /* ZMSuperPayUPService.m in Sources */,
+				B83169154053970C0704C8F559E5B989 /* ZMSuperPayWXService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		22163D856E30323793257F2A8F2EAB61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WechatOpenSDK;
+			target = 8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */;
+			targetProxy = 08152A4324AE1B37CB9A5F4C7B594601 /* PBXContainerItemProxy */;
+		};
+		325603F7DBAD643963DFFC084B6FF576 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WechatOpenSDK;
+			target = 8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */;
+			targetProxy = A6835835E7AC26A445A48FE07B599A79 /* PBXContainerItemProxy */;
+		};
 		3C6F8C4C1414F1758A2E2A268BAB543D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-ZMSuperPay_Example";
 			target = 49609A42E28B69ACD2B57F7B1DA2EF5C /* Pods-ZMSuperPay_Example */;
 			targetProxy = 47DB958A80125D9E2636728A115784E7 /* PBXContainerItemProxy */;
 		};
-		CEFFFCA7308896A488433D5F1BF96FC9 /* PBXTargetDependency */ = {
+		549EFE7712C739CB49EAD1525204EBF4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ZMSuperPay;
 			target = 77266F84F49DD45F2FCA389A6CB9B582 /* ZMSuperPay */;
-			targetProxy = B0DC935CEE0DE9A7C716D00E8FE542D0 /* PBXContainerItemProxy */;
+			targetProxy = 46E98063467533C70367C33A11528A90 /* PBXContainerItemProxy */;
+		};
+		E1DA69450A028D6E93E556AA50BE3253 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AlipaySDK-iOS";
+			target = 4847ACB1E2799345AA74D9E317048D58 /* AlipaySDK-iOS */;
+			targetProxy = F6BD4BB290B84060975FE63B982881D1 /* PBXContainerItemProxy */;
+		};
+		F3C622CE37C1AB9E4DC87412FFC774F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AlipaySDK-iOS";
+			target = 4847ACB1E2799345AA74D9E317048D58 /* AlipaySDK-iOS */;
+			targetProxy = D9C9FD041815575184F6A76EC2B52D37 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		106E64E4557727B88E612D1493FC83F1 /* Release */ = {
+		0392A93241D5FBE1D69A170F69381338 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 39C7B96668D3F093BCDAFAD3908E9B80 /* Pods-ZMSuperPay_Example.release.xcconfig */;
+			baseConfigurationReference = 6B1BF89672DAE889A4E5158BA597B8EA /* ZMSuperPay.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -420,19 +703,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ZMSuperPay_Example/Pods-ZMSuperPay_Example-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/ZMSuperPay/ZMSuperPay-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZMSuperPay/ZMSuperPay-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ZMSuperPay_Example/Pods-ZMSuperPay_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/ZMSuperPay/ZMSuperPay.modulemap";
+				PRODUCT_MODULE_NAME = ZMSuperPay;
+				PRODUCT_NAME = ZMSuperPay;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -534,72 +817,9 @@
 			};
 			name = Release;
 		};
-		62FFC6E3AFE9A57F16974502F5DAE6F1 /* Release */ = {
+		521E1416211E4078E8FAA1AA82B0BAD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72B8E5A7419925D1EA77E86D6310E750 /* ZMSuperPay.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZMSuperPay/ZMSuperPay-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZMSuperPay/ZMSuperPay-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZMSuperPay/ZMSuperPay.modulemap";
-				PRODUCT_MODULE_NAME = ZMSuperPay;
-				PRODUCT_NAME = ZMSuperPay;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		67D977A4AC74E90E23E85EAA98790E48 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C9C77230CF59DF8D340B4E64B698B8B /* ZMSuperPay.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZMSuperPay/ZMSuperPay-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZMSuperPay/ZMSuperPay-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZMSuperPay/ZMSuperPay.modulemap";
-				PRODUCT_MODULE_NAME = ZMSuperPay;
-				PRODUCT_NAME = ZMSuperPay;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6D7EE0FE0AE6C5005217AF0571ED2869 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C01955CFA3B4115C071E9BC6E9CA0B8 /* Pods-ZMSuperPay_Example.debug.xcconfig */;
+			baseConfigurationReference = 0B453AF3D41F49EE3602700D0776E208 /* Pods-ZMSuperPay_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -627,6 +847,51 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		590D3B682411E3107483634437F15210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57CC63F2E43F64E11AAA22B3EBA784D1 /* ZMSuperPay.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZMSuperPay/ZMSuperPay-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZMSuperPay/ZMSuperPay-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/ZMSuperPay/ZMSuperPay.modulemap";
+				PRODUCT_MODULE_NAME = ZMSuperPay;
+				PRODUCT_NAME = ZMSuperPay;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6910ABAAEC43DE37BCC68FB10625B51B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AA07A157E8694381D3B59A50A757B38 /* WechatOpenSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -694,6 +959,33 @@
 			};
 			name = Debug;
 		};
+		A0F052D5A8EE05A7189E03812B02B500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6BABDA408D8176CC1A46B5408989D66 /* AlipaySDK-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2DB3C5A5BF6E2BA8A7A8E0178051515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F10D18B681CAFF8036BC5B0505CD889 /* AlipaySDK-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		B00510462AAE6D3EDC860EDA3EF8C1AE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1F205843A601D1FB5FA5BBED7F460E82 /* Pods-ZMSuperPay_Tests.debug.xcconfig */;
@@ -727,6 +1019,54 @@
 			};
 			name = Debug;
 		};
+		C183246931ACAF72CA4B9101AEA67420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 105B904C1507B2D84E41689DFA09D039 /* Pods-ZMSuperPay_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZMSuperPay_Example/Pods-ZMSuperPay_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZMSuperPay_Example/Pods-ZMSuperPay_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C300D658D253E3D7F5E4AE6DF9BD5A2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E4F43DDC24A4A6CEA9FF2053CD72ECD /* WechatOpenSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -748,20 +1088,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C71EEBE01B64B21C64C6232B0DB5E9BB /* Build configuration list for PBXNativeTarget "ZMSuperPay" */ = {
+		48CE3FED3E2D19C4363505B9F04916C7 /* Build configuration list for PBXAggregateTarget "AlipaySDK-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				67D977A4AC74E90E23E85EAA98790E48 /* Debug */,
-				62FFC6E3AFE9A57F16974502F5DAE6F1 /* Release */,
+				A2DB3C5A5BF6E2BA8A7A8E0178051515 /* Debug */,
+				A0F052D5A8EE05A7189E03812B02B500 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D3B8C137F4926A433FF5B5B52AAECA0A /* Build configuration list for PBXNativeTarget "Pods-ZMSuperPay_Example" */ = {
+		4AF0DF2249DC5CF1F6B67BE5469CE54C /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6D7EE0FE0AE6C5005217AF0571ED2869 /* Debug */,
-				106E64E4557727B88E612D1493FC83F1 /* Release */,
+				6910ABAAEC43DE37BCC68FB10625B51B /* Debug */,
+				C300D658D253E3D7F5E4AE6DF9BD5A2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC41CB7332CDEF765EB9DF51C6894B7B /* Build configuration list for PBXNativeTarget "ZMSuperPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				590D3B682411E3107483634437F15210 /* Debug */,
+				0392A93241D5FBE1D69A170F69381338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2739FE13DCC0B22B55AB86B30754B3B /* Build configuration list for PBXNativeTarget "Pods-ZMSuperPay_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521E1416211E4078E8FAA1AA82B0BAD9 /* Debug */,
+				C183246931ACAF72CA4B9101AEA67420 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -30,7 +30,17 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ZMSuperPay/Classes/**/*'
+  s.source_files = 'ZMSuperPay/Classes/**/*.{h,m,a,mm}'
+  
+  # 允许使用静态库
+  s.static_framework = true
+  s.vendored_libraries = 'ZMSuperPay/Classes/**/*.a'
+  
+  
+  # 依赖
+  s.dependency 'AlipaySDK-iOS'
+  s.dependency 'WechatOpenSDK' ,'1.8.5'
+  
   
   # s.resource_bundles = {
   #   'ZMSuperPay' => ['ZMSuperPay/Assets/*.png']

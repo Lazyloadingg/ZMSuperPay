@@ -1,15 +1,26 @@
 PODS:
-  - ZMSuperPay (0.1.0)
+  - AlipaySDK-iOS (15.7.4)
+  - WechatOpenSDK (1.8.5)
+  - ZMSuperPay (0.1.0):
+    - AlipaySDK-iOS
+    - WechatOpenSDK (= 1.8.5)
 
 DEPENDENCIES:
   - ZMSuperPay (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AlipaySDK-iOS
+    - WechatOpenSDK
 
 EXTERNAL SOURCES:
   ZMSuperPay:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZMSuperPay: 0ed57657c44e7ba3630103901ffc73b2be30521a
+  AlipaySDK-iOS: 8659cdb4403de7e5f26ad8b699864a9cbe53384c
+  WechatOpenSDK: 9b15110aba1d502456d8e83677357e6437f2e751
+  ZMSuperPay: 8d34dbce27515f795202690011a8043b2cb23579
 
 PODFILE CHECKSUM: f9d90292b909036d3233802795ee3bd7e7a76282
 

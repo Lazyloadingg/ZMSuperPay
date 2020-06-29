@@ -10,6 +10,16 @@
 #endif
 #endif
 
+#import "ZMSuperPayGlobal.h"
+#import "UPPaymentControl.h"
+#import "ZMSuperPayAliService.h"
+#import "ZMSuperPayment.h"
+#import "ZMSuperPayParam.h"
+#import "ZMSuperPayService.h"
+#import "ZMSuperPayUPService.h"
+#import "ZMSuperPayWXService.h"
+#import "ZMSuperPaymentParamProtocol.h"
+#import "ZMSuperPay.h"
 
 FOUNDATION_EXPORT double ZMSuperPayVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZMSuperPayVersionString[];

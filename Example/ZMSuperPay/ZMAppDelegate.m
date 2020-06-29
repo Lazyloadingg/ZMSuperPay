@@ -7,13 +7,21 @@
 //
 
 #import "ZMAppDelegate.h"
+#import <ZMSuperPay/ZMSuperPay.h>
 
 @implementation ZMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    //注册微信支付
+    [ZMSuperPayment registerApp:@"" payType:ZMSuperPaymentTypeWXPay];
+    
     return YES;
+}
+-(BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options{
+    return [ZMSuperPayment handleOpenURL:url];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

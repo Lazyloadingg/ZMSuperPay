@@ -7,6 +7,7 @@
 //
 
 #import "ZMViewController.h"
+#import <ZMSuperPay/ZMSuperPay.h>
 
 @interface ZMViewController ()
 
@@ -14,16 +15,36 @@
 
 @implementation ZMViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [self loadDefaultsSetting];
+    [self initSubViews];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark >_<! 👉🏻 🐷 Life cycle 🐷
+#pragma mark >_<! 👉🏻 🐷 Delegate 🐷
+#pragma mark >_<! 👉🏻 🐷 Event  Response 🐷
+#pragma mark >_<! 👉🏻 🐷 Private Methods 🐷
+
+-(void)payAction{
+    [ZMSuperPayment payWithOrder:^(id<ZMSuperPaymentParamProtocol>  _Nonnull order) {
+        order.payType = ZMSuperPaymentTypeAliPay;
+        order.aliPayOrder = @"订单号";
+    } completion:^(NSDictionary * _Nonnull info) {
+        NSLog(@"回调");
+    }];
+}
+#pragma mark >_<! 👉🏻 🐷 Setter && Getter 🐷
+#pragma mark >_<! 👉🏻 🐷 Default Config🐷
+
+-(void)loadDefaultsSetting{
+    
+}
+-(void)initSubViews{
+    
+}
+-(void)layout{
+    
 }
 
 @end

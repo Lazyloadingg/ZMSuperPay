@@ -18,5 +18,15 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ZMSuperPay/Classes/**/*"
+  "source_files": "ZMSuperPay/Classes/**/*.{h,m,a,mm}",
+  "static_framework": true,
+  "vendored_libraries": "ZMSuperPay/Classes/**/*.a",
+  "dependencies": {
+    "AlipaySDK-iOS": [
+
+    ],
+    "WechatOpenSDK": [
+      "1.8.5"
+    ]
+  }
 }

@@ -1,0 +1,6 @@
+framework module Pods_ZMSuperPay_Example {
+  umbrella header "Pods-ZMSuperPay_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

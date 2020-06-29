@@ -1,0 +1,16 @@
+PODS:
+  - ZMSuperPay (0.1.0)
+
+DEPENDENCIES:
+  - ZMSuperPay (from `../`)
+
+EXTERNAL SOURCES:
+  ZMSuperPay:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZMSuperPay: 0ed57657c44e7ba3630103901ffc73b2be30521a
+
+PODFILE CHECKSUM: f9d90292b909036d3233802795ee3bd7e7a76282
+
+COCOAPODS: 1.9.3

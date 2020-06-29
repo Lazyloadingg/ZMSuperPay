@@ -1,0 +1,6 @@
+framework module ZMSuperPay {
+  umbrella header "ZMSuperPay-umbrella.h"
+
+  export *
+  module * { export * }
+}

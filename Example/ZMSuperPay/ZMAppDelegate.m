@@ -16,7 +16,7 @@
     // Override point for customization after application launch.
     
     //注册微信支付
-    [ZMSuperPayment registerApp:@"" payType:ZMSuperPaymentTypeWXPay];
+    [ZMSuperPayment registerApp:@"微信支付应用id" payType:ZMSuperPaymentTypeWXPay];
     
     return YES;
 }

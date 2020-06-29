@@ -25,13 +25,13 @@
 #pragma mark >_<! 👉🏻 🐷 Delegate 🐷
 #pragma mark >_<! 👉🏻 🐷 Event  Response 🐷
 #pragma mark >_<! 👉🏻 🐷 Private Methods 🐷
-
+//支付
 -(void)payAction{
     [ZMSuperPayment payWithOrder:^(id<ZMSuperPaymentParamProtocol>  _Nonnull order) {
         order.payType = ZMSuperPaymentTypeAliPay;
         order.aliPayOrder = @"订单号";
     } completion:^(NSDictionary * _Nonnull info) {
-        NSLog(@"回调");
+        NSLog(@"回调信息--%@",info);
     }];
 }
 #pragma mark >_<! 👉🏻 🐷 Setter && Getter 🐷

@@ -20,7 +20,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
         order.payType = ZMSuperPaymentTypeAliPay;
         order.aliPayOrder = @"订单号";
     } completion:^(NSDictionary * _Nonnull info) {
-        NSLog(@"回调");
+        NSLog(@"回调信息--%@",info);
     }];
 
 ```
@@ -46,7 +46,7 @@ pod 'ZMSuperPay'
 
 ## Author
 
-lazyloading@163.com, lazyloading@163.com
+lazyloading@163.com
 
 ## License
 
